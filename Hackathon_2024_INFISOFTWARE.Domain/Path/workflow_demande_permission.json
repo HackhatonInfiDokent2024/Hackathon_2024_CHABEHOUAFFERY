@@ -1,0 +1,57 @@
+{
+  "Processus de demande de formation": {
+    "Etape 1": {
+      "Nom": "Expression du besoin d'une formation certifiante",
+      "Description": "Validation de l'expression des besoins pour une formation.",
+      "Champs requis": [
+        {"Nom": "Fiche de demande de formation", "Type": "file"},
+        {"Nom": "Nom de la formation", "Type": "text"},
+        {"Nom": "Montant de la formation", "Type": "number"},
+        {"Nom": "Service concerné", "Type": "text"},
+        {"Nom": "Email du demandeur", "Type": "text"},
+        {"Nom": "Description", "Type": "text"}
+      ],
+      "Participants": {
+        "Responsable de tâche": ["Demandeur"],
+        "Validation": ["DAF"],
+        "Notification": ["DT"]
+      },
+      "Actions possibles": [
+        {"Nom": "Approbation", "Description": "Passage à l’étape Vérification du budget et réponse à la demande."}
+      ]
+    },
+    "Etape 2": {
+      "Nom": "Demande validée",
+      "Description": "Vérification du budget et réponse à la demande.",
+      "Champs requis": [
+        {"Nom": "Avis sur la possibilité", "Type": "text"},
+        {"Nom": "Commentaire", "Type": "text"}
+      ],
+      "Participants": {
+        "Responsable de tâche": ["DAF"],
+        "Validation": ["DG"],
+        "Notification": ["DT"]
+      },
+      "Actions possibles": [
+        {"Nom": "Approbation", "Description": "Passage à l’étape Validation finale de la demande par le Directeur générale."},
+        {"Nom": "Rejet de la demande"}
+      ]
+    },
+    "Etape 3": {
+      "Nom": "Validation par la Direction",
+      "Description": "Validation finale de la demande par le Directeur générale.",
+      "Champs requis": [
+        {"Nom": "Commentaire", "Type": "text"}
+      ],
+      "Participants": {
+        "Responsable de tâche": ["DG"],
+        "Validation": ["DG"],
+        "Notification": ["DAF", "DT"]
+      },
+      "Actions possibles": [
+        {"Nom": "Approbation", "Description": "Approbation de la demande"},
+        {"Nom": "Rejet de la demande"}
+      ]
+    }
+  }
+}

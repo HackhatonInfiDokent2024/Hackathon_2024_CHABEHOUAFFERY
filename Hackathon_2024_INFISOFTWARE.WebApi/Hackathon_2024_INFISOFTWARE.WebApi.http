@@ -1,0 +1,6 @@
+@Hackathon_2024_INFISOFTWARE.WebApi_HostAddress = http://localhost:5261
+
+GET {{Hackathon_2024_INFISOFTWARE.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon_2024_INFISOFTWARE.WebApi", "Hackathon_2024_INFISOFTWARE.WebApi\Hackathon_2024_INFISOFTWARE.WebApi.csproj", "{14BFD6F4-EB91-471B-AA52-141E08851C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon_2024_INFISOFTWARE.Domain", "Hackathon_2024_INFISOFTWARE.Domain\Hackathon_2024_INFISOFTWARE.Domain.csproj", "{8CC6020C-2286-4CBC-B683-A117350E8775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon_2024_INFISOFTWARE.Tests", "Hackathon_2024_INFISOFTWARE.Tests\Hackathon_2024_INFISOFTWARE.Tests.csproj", "{4BCE580C-FD8C-4B60-BE47-112826DF3074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon_2024_INFISOFTWARE.Services", "Hackathon_2024_INFISOFTWARE.Services\Hackathon_2024_INFISOFTWARE.Services.csproj", "{EA1AB012-2372-4632-9922-B7EFE08443DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackathon_2024_INFISOFTWARE.DataAccessLayer", "Hackathon_2024_INFISOFTWARE.DataAccessLayer\Hackathon_2024_INFISOFTWARE.DataAccessLayer.csproj", "{51EDA1EE-3559-4DFE-BBFD-0247252BA127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14BFD6F4-EB91-471B-AA52-141E08851C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BFD6F4-EB91-471B-AA52-141E08851C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BFD6F4-EB91-471B-AA52-141E08851C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BFD6F4-EB91-471B-AA52-141E08851C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC6020C-2286-4CBC-B683-A117350E8775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC6020C-2286-4CBC-B683-A117350E8775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC6020C-2286-4CBC-B683-A117350E8775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC6020C-2286-4CBC-B683-A117350E8775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCE580C-FD8C-4B60-BE47-112826DF3074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCE580C-FD8C-4B60-BE47-112826DF3074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCE580C-FD8C-4B60-BE47-112826DF3074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCE580C-FD8C-4B60-BE47-112826DF3074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1AB012-2372-4632-9922-B7EFE08443DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1AB012-2372-4632-9922-B7EFE08443DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1AB012-2372-4632-9922-B7EFE08443DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1AB012-2372-4632-9922-B7EFE08443DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EDA1EE-3559-4DFE-BBFD-0247252BA127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EDA1EE-3559-4DFE-BBFD-0247252BA127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EDA1EE-3559-4DFE-BBFD-0247252BA127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EDA1EE-3559-4DFE-BBFD-0247252BA127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {925630FD-5B3E-4A57-BD4A-1214697883EB}
+	EndGlobalSection
+EndGlobal
